@@ -1,0 +1,43 @@
+.footer {
+
+    position: relative;
+
+    .btn-float {
+        position: fixed;
+        right: 30px;
+        bottom: 2rem;
+        padding: 0.75rem 1rem;
+    }
+
+    .light {
+        background-color: #222121;
+
+    }
+
+    .hr::after {
+        content: '';
+        width: 80px;
+        height: 5px;
+        background-color: #888585;
+        display: block;
+        margin: 1rem 0;
+
+    }
+
+    // hr{
+    //     width: 60px;
+    //     height:3px;
+    // }
+
+    ul {
+
+        li {
+            padding-bottom: 0.5rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: white
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.services {
+  p {
+    line-height: 2rem;
+  }
+  h5 {
+    line-height: 2.5rem;
+  }
+
+  .arti {
+    border-right: 1px solid rgb(236, 234, 234);
+  }
+  .icon{
+    @include gradiant;
+    background-clip:text;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+    font-size:3rem;
+    // display:block;
+  }
+}

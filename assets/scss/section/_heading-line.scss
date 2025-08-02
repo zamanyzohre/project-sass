@@ -1,0 +1,16 @@
+.heading-line::before{
+    content:'';
+    height:0.1rem;
+    width:10rem;
+    background-color:$primary;
+    display: block;
+    margin: 0 auto;
+}
+.heading-line::after{
+    content:'';
+    height:0.4rem;
+    width:2rem;
+    background-color:$primary;
+    display: block;
+    margin:0 auto;
+}

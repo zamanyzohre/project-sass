@@ -1,0 +1,10 @@
+.btn-nav-primary{
+    background: $white;
+    border-radius: 50rem;
+
+    &:hover{
+        background: $primary;
+        color: $white;
+        border: 1px solid $white;
+    }
+}  
